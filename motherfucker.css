@@ -1,0 +1,82 @@
+body {
+  background-color: #FE4183;
+}
+
+.box-container {
+  position: fixed;
+}
+
+.box {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 90px;
+  position: relative;
+}
+
+ul {
+  padding-top: 10%;
+  position: fixed;
+}
+
+ul li {
+  padding: 10px;
+  margin-left: 15px;
+  margin-right: 10%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 8fr 1fr;
+      grid-template-columns: 8fr 1fr;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  border: solid 1px red;
+}
+
+.container {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 60%;
+  padding-left: 20%;
+  padding-top: 20%;
+}
+
+@media only screen and (min-width: 640px) {
+  .grid-image {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .grid-image {
+    -ms-flex-preferred-size: 33.333%;
+        flex-basis: 33.333%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .grid-image {
+    -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .grid-image {
+    -ms-flex-preferred-size: 20%;
+        flex-basis: 20%;
+  }
+}
+/*# sourceMappingURL=motherfucker.css.map */
